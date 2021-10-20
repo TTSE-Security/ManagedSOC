@@ -33,4 +33,4 @@ The template performs the following tasks:
 - Enables Scheduled analytics rules that apply to all the enabled connectors 
 
 
-[![Deploy To Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2FAzure-Sentinel%2Fmaster%2FTools%2FSentinel-All-In-One%2FMSSPversion%2Fmsspdeploy.json/createUIDefinitionUri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2FAzure-Sentinel%2Fmaster%2FTools%2FSentinel-All-In-One%2FMSSPversion%2FcreateUiDefinition.json)
+[![Deploy To Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FTTSE-Security%2FManagedSOC%2Fmaster%2FSetup%2FSentinelAIO%2FMSSPversion%2Fmsspdeploy.json/createUIDefinitionUri/https%3A%2F%2Fraw.githubusercontent.com%2FTTSE-Security%2FManagedSOC%2Fmaster%2FSetup%2FSentinelAIO%2FMSSPversion%2FcreateUiDefinition.json)
