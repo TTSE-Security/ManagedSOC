@@ -195,7 +195,7 @@
             "metadata": {
                 "description": "The location of resources"
             },
-            "defaultValue": "https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Tools/"
+            "defaultValue": "https://raw.githubusercontent.com/TTSE-Security/ManagedSOC/main/"
         }
     },
     "variables": {
@@ -221,7 +221,7 @@
             "properties": {
                 "mode": "Incremental",
                 "templateLink": {
-                    "uri": "[uri(parameters('_artifactsLocation'), 'Sentinel-All-In-One/MSSPversion/LinkedTemplates/workspace.json')]",
+                    "uri": "[uri(parameters('_artifactsLocation'), 'Setup/SentinelAIO/MSSPversion/LinkedTemplates/workspace.json')]",
                     "contentVersion": "1.0.0.0"
                 },
                 "parameters": {
@@ -259,7 +259,7 @@
             "properties": {
                 "mode": "Incremental",
                 "templateLink": {
-                    "uri": "[uri(parameters('_artifactsLocation'), 'Sentinel-All-In-One/MSSPversion/LinkedTemplates/dataConnectors.json')]",
+                    "uri": "[uri(parameters('_artifactsLocation'), 'Setup/SentinelAIO/MSSPversion/LinkedTemplates/dataConnectors.json')]",
                     "contentVersion": "1.0.0.0"
                 },
                 "parameters": {
@@ -300,7 +300,7 @@
             "properties": {
                 "mode": "Incremental",
                 "templateLink": {
-                    "uri": "[uri(parameters('_artifactsLocation'), 'Sentinel-All-In-One/MSSPversion/LinkedTemplates/alertRules.json')]",
+                    "uri": "[uri(parameters('_artifactsLocation'), 'Setup/SentinelAIO/MSSPversion/LinkedTemplates/alertRules.json')]",
                     "contentVersion": "1.0.0.0"
                 },
                 "parameters": {
@@ -338,7 +338,7 @@
             "properties": {
                 "mode": "Incremental",
                 "templateLink": {
-                    "uri": "[uri(parameters('_artifactsLocation'), 'Sentinel-All-In-One/MSSPversion/LinkedTemplates/scheduledAlerts.json')]",
+                    "uri": "[uri(parameters('_artifactsLocation'), 'Setup/SentinelAIO/MSSPversion/LinkedTemplates/scheduledAlerts.json')]",
                     "contentVersion": "1.0.0.0"
                 },
                 "parameters": {
